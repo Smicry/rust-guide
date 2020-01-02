@@ -1,11 +1,11 @@
-# code-server
-web版的vscode：https://github.com/cdr/code-server
+# rust 手册
 
-## windows 最佳使用
-推荐在 wsl - ubuntu 下启动 code-server，在 windows 下通过浏览器访问，模拟Linux下开发。
+## 开发环境
+Linux，避免C++相关配置问题，配合code-server直接在目标机器上开发。
 
-## golang 开发
-推荐配置好 goproxy 环境变量，通过 go:install/upadte tools 安装 golang 插件
+## 环境搭建
 
-## rust 开发
-极力推荐 wsl(ubuntu) + browser(windows) 模式开发，可以避免 c++ 相关环境问题
+## IDE
+code-server,就是web版的vscode，使用二进制部署即可。
+传送门：https://github.com/cdr/code-server
+插件列表：rls
