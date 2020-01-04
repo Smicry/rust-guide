@@ -1,11 +1,32 @@
 # rust 手册
 
 ## 开发环境
-Linux，避免C++相关配置问题，配合code-server直接在目标机器上开发。
+推荐在Linux下。
 
-## 环境搭建
+## rust开发环境搭建
+### rust组件安装
+* rustup component add rust-src
+* rustup component add rustfmt
+* rustup component add clippy
+* rustup component add rust-analysis
+* rustup component add rls
+### rls2.0(需要自己编译)
+* 传送门：https://github.com/rust-analyzer/rust-analyzer
 
+### rustup服务器代理
+* export RUSTUP_DIST_SERVER=http://mirrors.ustc.edu.cn/rust-static
+* export RUSTUP_UPDATE_ROOT=http://mirrors.ustc.edu.cn/rust-static/rustup
+### cargo镜像代理
+* 在你的CARGO_HOME目录下(默认是~/.cargo)，建立`config`文件：
+```
+[source.crates-io]
+registry = "https://github.com/rust-lang/crates.io-index"
+replace-with = 'ustc'
+[source.ustc]
+registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+```
 ## IDE
-code-server,就是web版的vscode，使用二进制部署即可。  
-传送门：https://github.com/cdr/code-server  
-插件列表：rls  
+* code-server，使用二进制部署即可。
+* 传送门：https://github.com/cdr/code-server
+* 插件列表：rls
+* 插件下载：https://marketplace.visualstudio.com/
