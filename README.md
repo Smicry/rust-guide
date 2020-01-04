@@ -28,5 +28,5 @@ registry = "git://mirrors.ustc.edu.cn/crates.io-index"
 ## IDE
 * code-server，使用二进制部署即可。
 * 传送门：https://github.com/cdr/code-server
-* 插件列表：rls
-* 插件下载：https://marketplace.visualstudio.com/
+* 插件列表：[rls](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
+* 插件市场：https://marketplace.visualstudio.com/vscode
