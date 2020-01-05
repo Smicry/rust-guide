@@ -11,7 +11,7 @@
 * rustup component add rust-analysis
 * rustup component add rls
 ### rls2.0(需要自己编译)
-* 传送门：https://github.com/rust-analyzer/rust-analyzer
+* [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer)
 
 ### rustup服务器代理
 * export RUSTUP_DIST_SERVER=http://mirrors.ustc.edu.cn/rust-static
@@ -27,6 +27,3 @@ registry = "git://mirrors.ustc.edu.cn/crates.io-index"
 ```
 ## IDE
 * code-server，使用二进制部署即可。
-* 传送门：https://github.com/cdr/code-server
-* 插件列表：[rls](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
-* 插件市场：https://marketplace.visualstudio.com/vscode
