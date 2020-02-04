@@ -10,8 +10,10 @@
 * rustup component add clippy
 * rustup component add rust-analysis
 * rustup component add rls
-### rls2.0(需要自己编译)
+### rls2.0
 * [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer)
+* 不用安 rust-analysis 和 rls 组件
+* vscode 插件和 rust language server 可直接在release里面下载
 
 ### rustup服务器代理
 * export RUSTUP_DIST_SERVER=http://mirrors.ustc.edu.cn/rust-static
