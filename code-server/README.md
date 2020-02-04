@@ -6,3 +6,8 @@
 
 ## rust 需要插件列表
 * [rls](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
+
+## golang 环境配置
+* vscode插件市场下载 [golang 插件](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go)。
+* ctrl + shift + p 打开输入框，输入 `Go:Install/Update Tools`。
+* 勾选全部，并点击确定安装。
